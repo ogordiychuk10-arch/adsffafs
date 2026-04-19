@@ -30,7 +30,6 @@ close.addEventListener('click', ()=>{
 
 })
 function updOffers (offer){
-    console.log('hello world!')
     offers = document.querySelectorAll('.offer')
     const btn = offer.querySelector('.main')
     const btn2 = offer.querySelector('.mainsecond')
