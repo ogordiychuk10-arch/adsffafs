@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(232, 232, 232);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+.class1{
+    background-color: blue;
+}
+.class2{
+    background-color: brown;
+}
+.hidden{
+    display: none !important;
+    opacity: 0;
+
+}
+.visible{
+    opacity: 1 !important;
+}
+.semi{
+    opacity: 1;
+}
+
+.offer{
+    background-color: rgb(255, 248, 240);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 80px;
+    
+    
+}
+.offer img{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+
+
+}
+.main{
+    background-color: rgb(219, 229, 255);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+.mainsecond{
+    background-color: rgb(250, 249, 178);
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+}
+.textf{
+    font-size: 25px;
+    height: 40px;
+    margin: 10px;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#cart{
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border-radius: 10px;
+}
+.carts{
+    height: 800px;
+    min-width: 800px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 15%;
+    border-radius: 20px;
+    transition: all 1s ;
+    opacity: 1 !important; 
+    
+
+}
+
+.header{
+    padding-left: 20px;
+
+}
+#closeimg{
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+.h2c{
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.orders{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.price{
+    margin: 10px;
+    font-size: 20px;
+    color: green;
+
+    display: inline;
+
+    
+    
+
+    
+}
