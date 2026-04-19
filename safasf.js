@@ -26,10 +26,11 @@ close.addEventListener('click', ()=>{
     modalwind.classList.toggle('hidden')
     modalwind.classList.toggle('visible')
     body.classList.toggle('semi')
-    offers.forEach(offer => updOffers(offer))
+    
 
 })
 function updOffers (offer){
+    console.log('hello world!')
     offers = document.querySelectorAll('.offer')
     const btn = offer.querySelector('.main')
     const btn2 = offer.querySelector('.mainsecond')
