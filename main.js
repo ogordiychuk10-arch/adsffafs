@@ -30,7 +30,6 @@ close.addEventListener('click', ()=>{
 
 })
 function updOffers (offer){
-    offers = document.querySelectorAll('.offer')
     const btn = offer.querySelector('.main')
     const btn2 = offer.querySelector('.mainsecond')
     const text = offer.querySelector('.textf')
@@ -66,13 +65,14 @@ function updOffers (offer){
             }
         }
         storemenu.appendChild(x)
+        updOffers(x)
                 offer.remove()
             })
             orders.appendChild(newitem1)
         }
         setTimeout(() => {
             offer.classList.add('hidden')
-        }, 2000)
+        }, 1000)
     })
 
     btn2.addEventListener('click', () => {
