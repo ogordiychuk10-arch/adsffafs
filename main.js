@@ -75,9 +75,7 @@ function updOffers (offer){
         }, 1000)
     })
 
-    btn2.addEventListener('click', () => {
-        offer.classList.add('hidden')
-    })
+  
 }
 
 
