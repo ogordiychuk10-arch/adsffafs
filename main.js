@@ -93,3 +93,5 @@ orders.querySelectorAll('.offer').forEach(offer =>{
 
 
 })})
+
+c 
